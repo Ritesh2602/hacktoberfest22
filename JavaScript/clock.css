@@ -1,0 +1,35 @@
+.clock{
+    position: relative;
+   margin: auto;
+   width: 40vw;
+   height: 40vw;
+   background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRa6GhdmkyacVWmVbH-mY_krsHwg0mYm7EYlQ&usqp=CAU) no-repeat;
+   background-size: 100%;
+}
+
+.hour,.minute,.second{
+    position: absolute;
+    border-radius: 20px;
+    background-color:black;
+    transform-origin: bottom;
+}
+
+.hour {
+    height: 21%;
+    width: 1%;
+    top: 32%;
+    left: 49.5%;
+}
+.minute {
+    height: 25%;
+    width: 1%;
+    top: 28%;
+    left: 49.5%;
+}
+
+.second {
+    height: 30%;
+    width: 1%;
+    top: 23%;
+    left: 49.5%;
+}
